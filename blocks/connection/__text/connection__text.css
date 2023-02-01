@@ -1,0 +1,17 @@
+.connection__text {
+  margin: 20px 0 0;
+  padding-left: 150px;
+  max-width: 940px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .connection__text {
+    padding-left: 50px;
+    font-size: 15px;
+  }
+}

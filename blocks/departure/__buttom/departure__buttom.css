@@ -1,0 +1,39 @@
+.departure__buttom {
+  position: relative;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding: 25px 75px 25px 75px;
+  background-color: #ff7f50;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  outline: 1px solid #ff7f50;
+  outline-offset: 5px;
+  text-transform: uppercase;
+}
+
+.departure__buttom:hover {
+  background-color: #ffe4b5;
+  color: #ff7f50;
+  outline: none;
+}
+
+@media (max-width: 1023px) {
+  .departure__buttom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 180px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 548px) {
+  .departure__buttom {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 15px;
+    width: 150px;
+    font-size: 10px;
+  }
+}

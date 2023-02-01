@@ -1,0 +1,16 @@
+.benefit__title {
+  margin: 0 0 30px;
+  color: #2A2C2F;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 30px;
+  text-align: center;
+}
+
+@media (max-width: 840px) {
+  .benefit__title {
+    margin: 0 0 20px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

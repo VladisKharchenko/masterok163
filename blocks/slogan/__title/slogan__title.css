@@ -1,0 +1,15 @@
+.slogan__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 45px;
+  color: #ff7f50;
+  text-align: center;
+}
+
+@media (max-width: 548px) {
+  .slogan__title  {
+    font-size: 26px;
+    line-height: 32px;
+  }
+}

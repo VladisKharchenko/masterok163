@@ -1,0 +1,9 @@
+.presentation {
+  margin: 28px auto 0;
+}
+
+@media (max-width: 768px) {
+  .presentation {
+    margin-top: 16px;
+  }
+}

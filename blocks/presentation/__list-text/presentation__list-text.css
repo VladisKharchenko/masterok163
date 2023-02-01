@@ -1,0 +1,27 @@
+.presentation__list-text {
+  color: #ffffff;
+  margin-right: 10px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  max-width: 300px;
+  display: flex;
+}
+
+.presentation__list-text:last-of-type {
+  margin-right: 0;
+}
+
+@media (max-width: 1023px) {
+  .presentation__list-text {
+    font-size: 10px;
+  line-height: 12px;
+  }
+}
+
+@media (max-width: 548px) {
+  .presentation__list-text {
+    font-size: 8px;
+  line-height: 8px;
+  }
+}

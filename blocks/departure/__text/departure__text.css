@@ -1,0 +1,28 @@
+.departure__text {
+  margin: 0 0 20px;
+  max-width: 915px;
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.departure__text:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1023px) {
+  .departure__text {
+  font-size: 12px;
+  line-height: 15px;
+  }
+}
+
+@media (max-width: 548px) {
+  .departure__text {
+    font-size: 8px;
+    line-height: 12px;
+  }
+}

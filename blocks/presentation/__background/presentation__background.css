@@ -1,0 +1,29 @@
+.presentation__background {
+  min-height: 740px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(../../../images/background-presentation.jpg);
+  background-size: cover;
+  text-decoration: none;
+  position: relative;
+}
+
+.presentation__background::before {
+  content: "";
+  position: absolute;
+  background: #2a2c2f;
+  opacity: 0.6;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+@media (max-width: 1023px) {
+  .presentation__background {
+    min-height: calc(100vw * 740 / 1024);
+  }
+}

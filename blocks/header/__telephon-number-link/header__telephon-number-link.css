@@ -1,0 +1,28 @@
+.header__telephon-number-link {
+  color: #2a2c2f;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  .header__telephon-number-link {
+    font-size: 20px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__telephon-number-link {
+    font-size: 16px;
+    line-height: 16px;
+  }
+}
+
+@media (max-width: 548px) {
+  .header__telephon-number-link {
+    font-size: 8px;
+    line-height: 8px;
+  }
+}

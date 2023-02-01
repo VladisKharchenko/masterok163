@@ -1,0 +1,4 @@
+.connection__form-cell {
+  display: flex;
+  flex-direction: column;
+}

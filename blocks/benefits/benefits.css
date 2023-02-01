@@ -1,0 +1,16 @@
+.benefits {
+  margin: 90px auto 0;
+  max-width: 927px;
+}
+
+@media (max-width: 840px) {
+  .benefits {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 321px) {
+  .benefits  {
+    margin-top: 25px;
+  }
+}

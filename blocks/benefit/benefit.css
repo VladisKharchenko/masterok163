@@ -1,0 +1,25 @@
+.benefit {
+  margin-top: 90px;
+  display: grid;
+  grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
+  column-gap: 30px;
+}
+
+@media (max-width: 840px) {
+  .benefit {
+    margin-top: 50px;
+    grid-template-columns: minmax(min-content, 460px) minmax(min-content, 251px);
+  }
+}
+
+@media (max-width: 768px) {
+  .benefit {
+    grid-template-columns: minmax(min-content, max-content);
+  }
+}
+
+@media (max-width: 321px) {
+  .benefit  {
+    margin-top: 25px;
+  }
+}

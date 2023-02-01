@@ -1,0 +1,15 @@
+.connection__form-buttom {
+  margin-top: 28px;
+  background-color: grey;
+  cursor: pointer;
+  border: 2px solid #ffffff;
+  color: black;
+  border-radius: 12px;
+}
+
+.connection__form-buttom:hover {
+  background-color: #ff7f50;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  box-shadow: none;
+}

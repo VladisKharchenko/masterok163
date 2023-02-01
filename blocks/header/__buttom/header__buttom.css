@@ -1,0 +1,36 @@
+.header__buttom {
+  background-color: #ffe4b5;
+  cursor: pointer;
+  border: 2px solid #ff7f50;
+  color: #ff7f50;
+  border-radius: 12px;
+  align-self: center;
+  min-height: 44px;
+  text-transform: uppercase;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header__buttom:hover {
+  background-color: #ff7f50;
+  color: #ffffff;
+  border: 2px solid #ffe4b5;
+  box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .header__buttom {
+    max-width: 140px;
+    min-height: 35px;
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 548px) {
+  .header__buttom {
+    max-width: 90px;
+    min-height: 30px;
+    font-size: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+  }
+}

@@ -1,0 +1,9 @@
+.footer__telephon-number {
+  margin: 0;
+  align-self: center;
+}
+
+.footer__telephon-number:hover {
+  opacity: 0.6;
+  transition: opacity 0.2s linear;
+}

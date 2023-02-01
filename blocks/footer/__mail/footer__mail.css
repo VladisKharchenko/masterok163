@@ -1,0 +1,10 @@
+.footer__mail {
+  margin: 0;
+  align-self: center;
+}
+
+.footer__mail:hover {
+  opacity: 0.6;
+  transition: opacity .2s linear;
+}
+

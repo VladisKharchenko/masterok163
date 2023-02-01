@@ -1,0 +1,18 @@
+.benefit__image {
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 0 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .benefit__image {
+    max-width: 450px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 321px) {
+  .benefit__image  {
+    max-width: 320px;
+  }
+}

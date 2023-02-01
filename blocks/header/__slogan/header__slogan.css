@@ -1,0 +1,33 @@
+.header__slogan {
+  margin: 0;
+  color: #2a2c2f;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 300px;
+  align-self: center;
+}
+
+@media (max-width: 1024px) {
+  .header__slogan {
+    font-size: 16px;
+    line-height: 18px;
+    max-width: 254px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__slogan {
+    font-size: 12px;
+    line-height: 12px;
+    max-width: 254px;
+  }
+}
+
+@media (max-width: 548px) {
+  .header__slogan {
+    font-size: 8px;
+    line-height: 8px;
+    max-width: 52px;
+  }
+}

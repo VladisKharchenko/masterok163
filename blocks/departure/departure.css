@@ -1,0 +1,15 @@
+.departure {
+  margin: 90px auto 0;
+}
+
+@media (max-width: 1023px) {
+  .departure {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 321px) {
+  .departure {
+    margin-top: 25px;
+  }
+}
