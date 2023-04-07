@@ -50,5 +50,13 @@
 @import url(../blocks/footer/__mail-link/footer__mail-link.css);
 @import url(../blocks/footer/__telephon-number/footer__telephon-number.css);
 @import url(../blocks/footer/__telephon-number-link/footer__telephon-number-link.css);
-
-
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/__close/popup__close.css);
+@import url(../blocks/popup/__form/popup__form.css);
+@import url(../blocks/popup/__form-cell/popup__form-cell.css);
+@import url(../blocks/popup/__form-label/popup__form-label.css);
+@import url(../blocks/popup/__form-star/popup__form-star.css);
+@import url(../blocks/popup/__form-input/popup__form-input.css);
+@import url(../blocks/popup/__form-buttom/popup__form-buttom.css);

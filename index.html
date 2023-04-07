@@ -236,5 +236,47 @@
         >
       </p>
     </footer>
+    <div class="popup">
+      <div class="popup__container">
+        <form class="popup__form" autocomplete="off" action="" method="post">
+          <div class="popup__form-cell">
+            <label class="popup__form-label"
+              >Ваше имя <span class="popup__form-star">*</span></label
+            >
+            <input
+              type="text"
+              name="username"
+              class="popup__form-input"
+              placeholder="Имя"
+              minlength="2"
+              maxlength="18"
+              required
+            />
+          </div>
+          <div class="popup__form-cell">
+            <label class="popup__form-label"
+              >Ваш номер <span class="popup__form-star">*</span></label
+            >
+            <input
+              type="tel"
+              name="usernumber"
+              class="popup__form-input"
+              placeholder="+7 (777) 777-77-77"
+              required
+              pattern="[\+]\d{1}\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+              minlength="18"
+              maxlength="18"
+            />
+          </div>
+          <input
+            class="popup__form-buttom"
+            type="submit"
+            value="Получить консультацию"
+          />
+          <a href="#" class="popup__close">Закрыть</a>
+        </form>
+      </div>
+    </div>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>

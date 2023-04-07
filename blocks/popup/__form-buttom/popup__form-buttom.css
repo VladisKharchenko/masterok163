@@ -1,0 +1,11 @@
+.popup__form-buttom {
+  margin-bottom: 10px;
+  height: 35px;
+  background-color: #ffe4b5;
+  cursor: pointer;
+  border: 2px solid #ff7f50;
+  color: #ff7f50;
+  align-self: center;
+  font-size: 18px;
+  line-height: 22px;
+}
