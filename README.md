@@ -4,4 +4,4 @@
 
 Сайт требудет доработок, ожидается согласования с клиентом. 
 
-Ссылка на сайт: https://masterok163.ru/
+Ссылка на сайт: https://vladiskharchenko.github.io/masterok163/
